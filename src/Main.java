@@ -13,8 +13,9 @@ public class Main {
         dumNovaku.materal = "mramor";
 
         RodinnyDom dumZajicu = new RodinnyDom();
-        dumZajicu.pocetPoschodi = 3;
         dumZajicu.rozloha = 457f;
+        dumZajicu.pocetPoschodi = 3;
+        dumZajicu.vypocetCennyDomu();
 
         String niakyText = "naco";
 
