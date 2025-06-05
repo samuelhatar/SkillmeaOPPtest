@@ -11,11 +11,15 @@ public class Main {
         dumNovaku.pocetPoschodi = 4;
         dumNovaku.rozloha = 457f;
         dumNovaku.materal = "mramor";
+        dumNovaku.vypocetCennyDomu(cenaZaMeter 300);
 
         RodinnyDom dumZajicu = new RodinnyDom();
         dumZajicu.rozloha = 457f;
         dumZajicu.pocetPoschodi = 3;
         dumZajicu.vypocetCennyDomu();
+        dumNovaku.vypocetCennyDomu(cenaZaMeter 250);
+
+        RodinnyDom dumSimu = new RodinnyDom();
 
         String niakyText = "naco";
 

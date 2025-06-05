@@ -8,8 +8,10 @@ public class RodinnyDom {
 
     int pocetOkien;
 
-    public void vypocetCennyDomu(){
-        System.out.println(rozloha * 8000);
+    public void vypocetCennyDomu(int cenaZaMeter, String menoRodiny){
+        Float cena = rozloha * cenaZaMeter * pocetPoschodi);
+        System.out.println(menoRodiny+ " " + cena);
+
     }
 
 }
