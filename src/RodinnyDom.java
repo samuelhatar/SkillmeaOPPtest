@@ -1,16 +1,27 @@
 public class RodinnyDom {
 
-    int pocetPoschodi;
+    private int pocetPoschodi;
 
-    String materal;
+    private String materal;
 
-    float rozloha;
+    private float rozloha;
 
-    int pocetOkien;
+    private int pocetOkien;
 
-    public void vypocetCennyDomu(int cenaZaMeter, String menoRodiny){
-        Float cena = rozloha * cenaZaMeter * pocetPoschodi);
+    public void zmenaRozlohy(float novaRozloha);
+
+    RodinnyDom(int pocPos, String mat, float roz) {
+        this.pocetPoschodi = pocetPoschodi;
+        this.materal = material;
+        this.rozloha = rozloha;
+        //System.out.println("Teraz sa vola konstruktor");
+    }
+
+
+    public float vypocetCennyDomu(int cenaZaMeter, String menoRodini){
+        Float cena = rozloha * cenaZaMeter * pocetPoschodi;
         System.out.println(menoRodiny+ " " + cena);
+        return cena;
 
     }
 

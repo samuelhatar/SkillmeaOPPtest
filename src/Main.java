@@ -5,23 +5,24 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
 
-        //Random nahCislo = new RodinnyDom();
+        Random nahCislo = new RodinnyDom();
+        nahCislo.nextInt();
 
         RodinnyDom dumNovaku = new RodinnyDom();
-        dumNovaku.pocetPoschodi = 4;
+        /*dumNovaku.pocetPoschodi = 4;
         dumNovaku.rozloha = 457f;
-        dumNovaku.materal = "mramor";
-        dumNovaku.vypocetCennyDomu(cenaZaMeter 300);
+        dumNovaku.materal = "mramor";*/
+        float cenaPrvehoDomu = dumNovaku.vypocetCennyDomu(cenaZaMeter 300, "Novaka");
 
         RodinnyDom dumZajicu = new RodinnyDom();
-        dumZajicu.rozloha = 457f;
-        dumZajicu.pocetPoschodi = 3;
-        dumZajicu.vypocetCennyDomu();
-        dumNovaku.vypocetCennyDomu(cenaZaMeter 250);
+        /*dumZajicu.rozloha = 457f;
+        dumZajicu.pocetPoschodi = 3;*/
+        //dumZajicu.vypocetCennyDomu();
+        //dumNovaku.vypocetCennyDomu(cenaZaMeter 250);
 
-        RodinnyDom dumSimu = new RodinnyDom();
+        //RodinnyDom dumSimu = new RodinnyDom();
 
-        String niakyText = "naco";
+        //String niakyText = "naco";
 
 
     }
